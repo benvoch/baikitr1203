@@ -5,20 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <style>
+        /* CSS styles go here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .textbox {
+            width: 200px;
+            padding: 5px;
+        }
+
+        .submit-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
-   
+
     <form>
-        <div class="form-group"> 
+        <div class="form-group">
             <label for="txtUsername">Username:</label>
-    <input type="text" id="txtUsername" name="txtUsername">
-          <label for="password" class="label">Mật khẩu:</label>
-          <input type="password" id="password" class="textbox" name="password">
+            <input type="text" id="txtUsername" name="txtUsername">
+            <label for="password" class="label">Mật khẩu:</label>
+            <input type="password" id="password" class="textbox" name="password">
         </div>
         <input type="submit" value="Đăng nhập" class="submit-button">
-      </form>
+    </form>
 </body>
 
 </html>
