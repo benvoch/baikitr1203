@@ -35,18 +35,6 @@
             cursor: pointer;
         }
     </style>
-    <script>
-        function login() {
-            var username = document.getElementById("txtUsername").value;
-            var password = document.getElementById("password").value;
-
-            if (username === "admin" && password === "admin") {
-                window.location.href = "thanhcong.html";
-            } else {
-                alert("Invalid username or password. Please try again.");
-            }
-        }
-    </script>
 </head>
 
 <body>
@@ -58,9 +46,8 @@
             <label for="password" class="label">Mật khẩu:</label>
             <input type="password" id="password" class="textbox" name="password">
         </div>
-        <input type="button" value="Đăng nhập" class="submit-button" onclick="login()">
+        <input type="submit" value="Login" class="submit-button">
     </form>
-
 </body>
 
 </html>
